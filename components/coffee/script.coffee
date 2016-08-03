@@ -1,5 +1,5 @@
-do fill = (item = 'Bob') ->
-  $('#content').append "#{item}"
-  console.dir @fill
+do fill = (item = 'Andy') ->
+	$('#content').append "#{item}"
+	console.dir @fill
 
 fill
